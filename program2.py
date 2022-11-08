@@ -2,5 +2,5 @@ string = "python is a good language"
 str = ""
 for i in string:
     str = i + str
-print(str)
-print(string[::-1])
+print(str) #ye without
+print(string[::-1]) # ye with
