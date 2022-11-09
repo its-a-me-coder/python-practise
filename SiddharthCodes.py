@@ -32,8 +32,3 @@ else:
     print("not in S")
 
 
-string=input("enter the string")
-charec = string[0]
-
-string2= (charec + (string[1:].replace(charec, '$')))
-print(string2)

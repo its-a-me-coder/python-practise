@@ -1,21 +1,28 @@
 string = input("Enter a word to eliminate same case letters")
 nono = []
-final =""
+final = ""
 for i in string:
     if i not in nono:
-        final+=i
+        final += i
         nono.append(i)
 print(final)
 
 #################################################################
 
 string = input("enter a sentence to exchange commas and spaces with each other")
-string1=[]
+string1 = []
 for i in string:
     if i == ' ':
-        string1+=','
+        string1 += ','
     elif i == ',':
-        string1+=' '
+        string1 += ' '
     else:
-        string1+=i
+        string1 += i
 print(''.join(string1))
+
+#################################################################
+
+string1 = input('enter for most repeated: ')
+lst = list(string1)
+
+print((max(string1, key=string1.count)))
