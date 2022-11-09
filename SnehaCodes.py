@@ -7,10 +7,11 @@ for i in ls:
 print(' '.join(x))
 
 ########################################################
-string = input("enter the string:  ")
+string = "SouriksssDuttaSSS"
 x = string[0].lower()
 y = string[0].upper()
 string2 = (string[1:].replace(x, '$'))
+print(string[0]+string2)
 string3 = (string[0] + (string2.replace(y, '$')))
 print(string3)
 ########################################################
