@@ -19,7 +19,7 @@ for i in str1:
 
 print("Number of Vowels = ", vowels)
 print("Number of Consonants = ",
-      consonants)  # but this is wrong should i use regex??, but that requires external library
+      consonants)
 
 ##########################################
 
