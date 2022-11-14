@@ -14,7 +14,6 @@ for i in range(len(string)):
 print(c)
 
 ############################################################
-
 list_multiply = [1, 2, 3, 4, 5, 6, 7]
 list_multiplied = map(lambda i: i * 5, list_multiply)
 print(list(list_multiplied))
